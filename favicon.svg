@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="1000" height="1000"><style>
+    #light-icon {
+      display: inline;
+    }
+    #dark-icon {
+      display: none;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      #light-icon {
+        display: none;
+      }
+      #dark-icon {
+        display: inline;
+      }
+    }
+  </style><g id="light-icon"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="1000" height="1000"><rect width="1000" height="1000" rx="200" ry="200" fill="#395062"></rect><g transform="matrix(0.439453125,0,0,0.439453125,50,50)"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="2048" height="2048"><svg id="Square" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2048 2048">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-2 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #395062;
+      }
+
+      .cls-4, .cls-3 {
+        stroke-width: 0px;
+      }
+    </style>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="96" dy="96"></feOffset>
+      <feGaussianBlur result="blur" stdDeviation="24"></feGaussianBlur>
+      <feFlood flood-color="#000" flood-opacity=".5"></feFlood>
+      <feComposite in2="blur" operator="in"></feComposite>
+      <feComposite in="SourceGraphic"></feComposite>
+    </filter>
+  </defs>
+  <rect class="cls-4" x="64" y="64" width="1920" height="1920" rx="128" ry="128"></rect>
+  <g class="cls-1">
+    <ellipse class="cls-2" cx="742.73" cy="580.74" rx="119.2" ry="91.26" transform="translate(-198.65 632.76) rotate(-41.18)"></ellipse>
+    <path class="cls-2" d="m453.18,1466.74h0c-28.8,0-45.89-23.35-38.18-52.15l139.73-521.48c23.15-86.4,111.96-156.44,198.36-156.44h0c28.8,0,45.89,23.35,38.18,52.15l-139.73,521.48c-23.15,86.4-111.96,156.44-198.36,156.44Z"></path>
+    <path class="cls-3" d="m1633,372.15c-23.15,86.4-111.96,156.44-198.36,156.44h-234.59c-14.45,0-29.3,11.71-33.17,26.16l-34.91,130.28h156.44c14.39,0,25.87,5.84,32.77,15.28,6.91,9.44,9.26,22.48,5.4,36.87-23.15,86.4-111.96,156.44-198.36,156.44h-52.15l-181.65,677.93c-23.17,86.47-112.11,156.56-198.58,156.44-28.7-.04-45.65-23.43-37.96-52.15l209.6-782.22c-28.8,0-45.89-23.35-38.18-52.15l27.95-104.3c7.72-28.8,37.33-52.15,66.12-52.15l41.92-156.44c30.87-115.2,149.28-208.59,264.48-208.59h365.05c14.4,0,25.88,5.84,32.77,15.28,6.91,9.44,9.26,22.48,5.4,36.87Z"></path>
+  </g>
+</svg></svg></g></svg></g><g id="dark-icon"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="1000" height="1000"><rect width="1000" height="1000" rx="200" ry="200" fill="#ffffff"></rect><g transform="matrix(0.439453125,0,0,0.439453125,50,50)"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="2048" height="2048"><svg id="Square" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2048 2048">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#drop-shadow-2);
+      }
+
+      .cls-2 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #395062;
+      }
+
+      .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+    <filter id="drop-shadow-2" filterUnits="userSpaceOnUse">
+      <feOffset dx="96" dy="96"></feOffset>
+      <feGaussianBlur result="blur" stdDeviation="24"></feGaussianBlur>
+      <feFlood flood-color="#000" flood-opacity=".5"></feFlood>
+      <feComposite in2="blur" operator="in"></feComposite>
+      <feComposite in="SourceGraphic"></feComposite>
+    </filter>
+  </defs>
+  <rect class="cls-4" x="64" y="64" width="1920" height="1920" rx="128" ry="128"></rect>
+  <g class="cls-1">
+    <ellipse class="cls-2" cx="742.73" cy="580.74" rx="119.2" ry="91.26" transform="translate(-198.65 632.76) rotate(-41.18)"></ellipse>
+    <path class="cls-2" d="m453.18,1466.74h0c-28.8,0-45.89-23.35-38.18-52.15l139.73-521.48c23.15-86.4,111.96-156.44,198.36-156.44h0c28.8,0,45.89,23.35,38.18,52.15l-139.73,521.48c-23.15,86.4-111.96,156.44-198.36,156.44Z"></path>
+    <path class="cls-3" d="m1633,372.15c-23.15,86.4-111.96,156.44-198.36,156.44h-234.59c-14.45,0-29.3,11.71-33.17,26.16l-34.91,130.28h156.44c14.39,0,25.87,5.84,32.77,15.28,6.91,9.44,9.26,22.48,5.4,36.87-23.15,86.4-111.96,156.44-198.36,156.44h-52.15l-181.65,677.93c-23.17,86.47-112.11,156.56-198.58,156.44-28.7-.04-45.65-23.43-37.96-52.15l209.6-782.22c-28.8,0-45.89-23.35-38.18-52.15l27.95-104.3c7.72-28.8,37.33-52.15,66.12-52.15l41.92-156.44c30.87-115.2,149.28-208.59,264.48-208.59h365.05c14.4,0,25.88,5.84,32.77,15.28,6.91,9.44,9.26,22.48,5.4,36.87Z"></path>
+  </g>
+</svg></svg></g></svg></g></svg>
