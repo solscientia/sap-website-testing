@@ -1,8 +1,10 @@
 :root {
-  --primary-color: #395062;
-  --secondary-color: #AD997B;
-  --secondary-color-light: #CEC2B1;
+  --primary-color: hsl(206, 26%, 30%);
+  --primary-color-light: hsl(206, 26%, 85%);
+  --secondary-color: hsl(35, 23%, 60%);
+  --secondary-color-light: hsl(35, 23%, 90%);
   --radius: 0.25rem;
+  --body-color: hsl(0, 0%, 20%);
 }
 
 html {
@@ -24,7 +26,7 @@ body {
   margin: 0;
   margin-inline: auto;
   max-width: 80rem;
-  color: #333333;
+  color: var(--body-color);
 }
 
 h1,
@@ -39,7 +41,7 @@ p {
 }
 
 blockquote {
-  border-left: 0.5rem solid #ccc;
+  border-left: 0.5rem solid var(--primary-color);
   padding: 0.5em 10px;
   margin-inline: 0;
 }
@@ -61,7 +63,7 @@ blockquote {
 a.button {
   text-decoration: none;
   background-color: var(--secondary-color);
-  color: white;
+  color: #fff;
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -91,7 +93,7 @@ header > .actions > a {
           appearance: none;
   border: none;
   background-color: var(--secondary-color);
-  color: white;
+  color: #fff;
   padding-inline: 1rem;
   padding-block: 0.5rem;
   border-radius: var(--radius);
@@ -106,12 +108,6 @@ header > .logo > img {
   width: auto;
   height: 2.25rem;
 }
-header > .logo > img.full {
-  display: block;
-}
-header > .logo > img.small {
-  display: none;
-}
 header > nav > ul {
   display: flex;
   gap: 2rem;
@@ -121,7 +117,7 @@ header > nav > ul {
 }
 header > nav > ul > li > a {
   text-decoration: none;
-  color: black;
+  color: #000;
   text-transform: capitalize;
 }
 header > nav > ul > li > a:hover {
@@ -129,8 +125,8 @@ header > nav > ul > li > a:hover {
 }
 
 footer {
-  background-color: #333333;
-  color: white;
+  background-color: var(--body-color);
+  color: #fff;
   padding-block: 1rem;
   display: flex;
   justify-content: space-between;
@@ -207,7 +203,7 @@ footer ul img {
 
 #home-addon {
   padding: 2rem;
-  background-color: #F6F6FF;
+  background-color: var(--primary-color-light);
 }
 
 #aarsi {
@@ -261,22 +257,22 @@ footer ul img {
 
 #aarsi-addon {
   padding: 2rem;
-  background-color: #333;
-  color: #e3e3e9;
+  background-color: var(--body-color);
+  color: var(--secondary-color-light);
 }
 
-#features {
+#ciss {
   padding-top: 2rem;
   background-color: #fff;
 }
-#features h2 {
+#ciss h2 {
   font-size: 2rem;
   line-height: 1;
 }
-#features > p {
+#ciss > p {
   color: var(--primary-color);
 }
-#features > div {
+#ciss > div {
   display: grid;
   grid-template-columns: minmax(18rem, 1fr) 1fr;
   grid-template-areas: "image caption";
@@ -284,25 +280,25 @@ footer ul img {
   background-color: initial;
   padding: 2rem;
 }
-#features > div .section-contents {
+#ciss > div .section-contents {
   grid-area: caption;
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
-#features > div .section-contents ul {
+#ciss > div .section-contents ul {
   padding-left: 0;
   list-style: none;
   margin: 0.5rem 0 0;
 }
-#features > div .section-contents ul li {
+#ciss > div .section-contents ul li {
   min-height: 1.5rem;
 }
-#features > div .section-contents ul li > i {
+#ciss > div .section-contents ul li > i {
   padding-inline-end: 0.25rem;
   color: var(--secondary-color);
 }
-#features > div img {
+#ciss > div img {
   grid-area: image;
   max-width: 100%;
   height: auto;
@@ -310,7 +306,7 @@ footer ul img {
 
 #contact {
   padding-block: 2rem;
-  background-color: #f5f5f5;
+  background-color: var(--secondary-color-light);
 }
 #contact .heading {
   display: flex;
@@ -369,14 +365,14 @@ footer ul img {
           appearance: none;
   border: none;
   background-color: var(--secondary-color);
-  color: white;
+  color: #fff;
   padding-inline: 1rem;
   padding-block: 0.5rem;
   border-radius: 0.5rem;
   font-weight: bold;
 }
 #contact > .section-content > form input[type=reset] {
-  background-color: lightcoral;
+  background-color: var(--primary-color);
 }
 #contact > .section-content > div {
   grid-area: contact;

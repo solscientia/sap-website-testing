@@ -1,9 +1,9 @@
 @media (max-width: calc(28rem - 1px)) {
-  header > .logo > img.full {
-    display: none;
+  header > .actions {
+    padding-inline-start: 0;
   }
-  header > .logo > img.small {
-    display: block;
+  header > .logo {
+    padding-inline-end: 0;
   }
 }
 @media (max-width: calc(48rem - 1px)) {
@@ -43,10 +43,10 @@
   #aarsi-addon {
     padding: 1rem;
   }
-  #features > p {
+  #ciss > p {
     padding-inline: 1rem;
   }
-  #features > div {
+  #ciss > div {
     grid-template-columns: 1fr;
     grid-template-areas: "image" "caption";
     padding: 1rem;

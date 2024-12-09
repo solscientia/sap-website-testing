@@ -1,8 +1,10 @@
 :root {
-  --primary-color: #395062;
-  --secondary-color: #AD997B;
-  --secondary-color-light: #CEC2B1;
+  --primary-color: hsl(206, 26%, 30%);
+  --primary-color-light: hsl(206, 26%, 85%);
+  --secondary-color: hsl(35, 23%, 60%);
+  --secondary-color-light: hsl(35, 23%, 90%);
   --radius: 0.25rem;
+  --body-color: hsl(0, 0%, 20%);
 }
 
 html {
@@ -24,7 +26,7 @@ body {
   margin: 0;
   margin-inline: auto;
   max-width: 80rem;
-  color: #333333;
+  color: var(--body-color);
 }
 
 h1,
@@ -39,7 +41,7 @@ p {
 }
 
 blockquote {
-  border-left: 0.5rem solid #ccc;
+  border-left: 0.5rem solid var(--primary-color);
   padding: 0.5em 10px;
   margin-inline: 0;
 }
@@ -64,7 +66,7 @@ a {
   &.button {
     text-decoration: none;
     background-color: var(--secondary-color);
-    color: white;
+    color: #fff;
     appearance: none;
     border: none;
     border-radius: var(--radius);
@@ -91,7 +93,7 @@ header {
       appearance: none;
       border: none;
       background-color: var(--secondary-color);
-      color: white;
+      color: #fff;
       padding-inline: 1rem;
       padding-block: 0.5rem;
       border-radius: var(--radius);
@@ -107,12 +109,14 @@ header {
     >img {
       width: auto;
       height: 2.25rem;
-      &.full {
-        display: block;
-      }
-      &.small {
-        display: none;
-      }
+
+      // &.full {
+      //   display: block;
+      // }
+
+      // &.small {
+      //   display: none;
+      // }
     }
   }
 
@@ -127,7 +131,7 @@ header {
       >li {
         >a {
           text-decoration: none;
-          color: black;
+          color: #000;
           text-transform: capitalize;
 
           &:hover {
@@ -140,8 +144,8 @@ header {
 }
 
 footer {
-  background-color: #333333;
-  color: white;
+  background-color: var(--body-color);
+  color: #fff;
   padding-block: 1rem;
   display: flex;
   justify-content: space-between;
@@ -226,7 +230,7 @@ footer {
 
 #home-addon {
   padding: 2rem;
-  background-color: #F6F6FF;
+  background-color: var(--primary-color-light);
 }
 
 #aarsi {
@@ -288,11 +292,11 @@ footer {
 
 #aarsi-addon {
   padding: 2rem;
-  background-color: #333;
-  color: #e3e3e9;
+  background-color: var(--body-color);
+  color: var(--secondary-color-light);
 }
 
-#features {
+#ciss {
   padding-top: 2rem;
   background-color: #fff;
 
@@ -346,7 +350,7 @@ footer {
 
 #contact {
   padding-block: 2rem;
-  background-color: #f5f5f5;
+  background-color: var(--secondary-color-light);
 
   .heading {
     display: flex;
@@ -410,7 +414,7 @@ footer {
         appearance: none;
         border: none;
         background-color: var(--secondary-color);
-        color: white;
+        color: #fff;
         padding-inline: 1rem;
         padding-block: 0.5rem;
         border-radius: 0.5rem;
@@ -418,7 +422,7 @@ footer {
       }
 
       input[type="reset"] {
-        background-color: lightcoral;
+        background-color: var(--primary-color);
       }
     }
 
